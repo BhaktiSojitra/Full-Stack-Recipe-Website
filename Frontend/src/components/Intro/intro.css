@@ -1,0 +1,59 @@
+.main-container {
+    /* border: 2px solid black; */
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    margin: 7vh auto;
+}
+
+.container-1 {
+    /* border: 2px solid black; */
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: #F2F2F2;
+}
+
+.home-you {
+    color: rgb(128, 128, 128);
+    font-size: 17px;
+}
+
+.para {
+    text-align: center;
+    margin: 0;
+    padding: 0 10px;
+    font-size: 16px;
+    color: #4d4d4d;
+}
+
+.learn-more {
+    padding: .75rem 1rem .5rem;
+    cursor: pointer;
+    font-weight: 700;
+    background-color: rgb(77, 77, 77);
+    text-align: center;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: .875rem;
+}
+
+.container-2 {
+    /* border: 2px solid black; */
+    width: 25vw;
+    background: url('https://pinchofyum.com/wp-content/assets/images/home-lindsay-kitchen.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container-3 {
+    /* border: 2px solid black; */
+    width: 25vw;
+    background: url('https://pinchofyum.com/wp-content/assets/images/home-lindsay-pour.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}

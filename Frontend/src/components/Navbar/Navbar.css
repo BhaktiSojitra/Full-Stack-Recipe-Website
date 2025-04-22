@@ -1,0 +1,66 @@
+.navbar {
+  padding: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .logo {
+  width: 210px;
+}
+
+.navbar-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.navbar button {
+  background: transparent;
+  font-size: 16px;
+  color: #734060;
+  border: 1px solid #734060;
+  padding: 10px 30px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.navbar .active {
+  border-bottom: 2px solid #734060;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 35px;
+}
+
+.search-box input,.btn {
+  height: 35px;
+}
+
+input {
+  border: 1px solid #734060;
+  outline: none;
+  border-radius: 6px 0 0 6px;
+  padding: 0 0.5em;
+  min-width: 250px;
+  color: #7a285c;
+}
+
+.search-box .btn{
+  padding-block: 0;
+  padding-inline: .75em;
+  border-radius: 0 6px 6px 0;
+}

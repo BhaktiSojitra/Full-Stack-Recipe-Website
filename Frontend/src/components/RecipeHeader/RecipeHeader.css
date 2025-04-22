@@ -1,0 +1,23 @@
+.recipe-container{
+    height: 30vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    text-align: center;
+    gap: 13px; 
+    padding: 0 5em;
+    background-color: #734060;
+    color: white;
+}
+
+.recipe-header{
+    font-weight: 700;
+    font-size: 1.4em;
+}
+
+.recipe-content{
+    font-size: 1em;
+}

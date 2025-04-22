@@ -1,0 +1,33 @@
+.all-recipe-container{
+    /*border: 1px solid black;*/
+    margin-bottom: 4vh;
+}
+
+.dish-main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5vw;
+    margin-top: 2vh;
+    /*border: 1px solid black;*/
+}
+
+.dish-container .img{
+    height: 15em;
+    width: 15em;
+    border-radius: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.icons{
+    margin-top: 0.9vh;
+}
+
+.icons i{
+    color: rgb(237,182,84);
+}
+
+.dish-name{
+    line-height: 1.5em;
+}

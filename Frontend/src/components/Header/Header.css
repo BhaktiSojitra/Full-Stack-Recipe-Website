@@ -1,0 +1,28 @@
+.header{
+    height: 34vw;
+    width: 100%;
+    margin: 30px auto;
+    background: url('/header_img.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-contents{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vh;
+    text-align: center;
+    top: 25em;
+    left: 10em;
+    animation: fedIn 2s;
+}
+
+.header-contents h2{
+    font-weight: 500;
+    font-size: 1.7em;
+}
+
+.header-contents p{
+    font-size: 1.2vw;
+}
