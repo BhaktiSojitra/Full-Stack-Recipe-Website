@@ -6,6 +6,18 @@
 
 This project is designed for beginners to demonstrate the structure and flow of a full-stack application.
 
+**Create a React App**
+Option 1: Using Vite (faster and more modern)
+- npm create vite@latest my-app --template react
+- cd my-app
+- npm install
+- npm run dev
+
+Option 2: Using Create React App
+- npx create-react-app my-app
+- cd my-app
+- npm start
+- 
 **Run Backend**
 - npm install
 - node server.js
