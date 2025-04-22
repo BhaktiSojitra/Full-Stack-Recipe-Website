@@ -1,0 +1,18 @@
+.div{
+    display: inline-block;
+}
+
+.update-button , .button{
+    display: inline-block;
+    max-width: 120px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #734060;
+    color: white;
+    cursor: pointer;
+}
+
+.update-button{
+    margin-right: 20px;
+}
